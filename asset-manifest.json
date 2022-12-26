@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Saleryv/goit-react-hw-01-components.git/static/css/main.3920a331.css",
+    "main.js": "/Saleryv/goit-react-hw-01-components.git/static/js/main.5d352535.js",
+    "index.html": "/Saleryv/goit-react-hw-01-components.git/index.html",
+    "main.3920a331.css.map": "/Saleryv/goit-react-hw-01-components.git/static/css/main.3920a331.css.map",
+    "main.5d352535.js.map": "/Saleryv/goit-react-hw-01-components.git/static/js/main.5d352535.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3920a331.css",
+    "static/js/main.5d352535.js"
+  ]
+}
