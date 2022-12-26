@@ -1,0 +1,25 @@
+.profile {
+    padding: 20px;
+}
+
+.avatar {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: #efebeb;
+}
+
+.description{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.stats{
+display: flex;
+justify-content: center;
+column-gap: 20px;
+}
+

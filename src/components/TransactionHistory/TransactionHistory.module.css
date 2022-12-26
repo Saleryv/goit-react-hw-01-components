@@ -1,0 +1,9 @@
+.table{
+margin-left: auto;
+margin-right: auto;
+gap: 20px
+}
+
+.row {
+    text-align: center;
+}

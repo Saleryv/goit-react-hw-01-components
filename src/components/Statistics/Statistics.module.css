@@ -1,0 +1,10 @@
+.statList{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+}
+
+.title {
+text-align: center;
+}
