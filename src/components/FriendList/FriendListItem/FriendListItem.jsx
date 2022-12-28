@@ -1,7 +1,7 @@
 import css from '../FriendListItem/FriendListItem.module.css';
 import PropTypes from 'prop-types';
 
-const FriendListItem = ({ avatar, name, isOnline }) => {
+ export const FriendListItem = ({ avatar, name, isOnline }) => {
     const isOnlineBackground = isOnline ? 'online' : 'offline';
     const isOnlineMark = isOnline ? 'onlineStatus' : 'offlineStatus';
     return (
@@ -19,5 +19,4 @@ FriendListItem.propTypes = {
     isOnline: PropTypes.bool.isRequired,
 };
 
-export default FriendListItem;
 

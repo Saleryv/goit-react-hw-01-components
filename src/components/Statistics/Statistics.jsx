@@ -1,17 +1,14 @@
 import css from './Statistics.module.css';
 import PropTypes from 'prop-types';
 
-const Statistics = ({ title, stats }) => {
+export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
       {title ? <h2 className={css.title}>{title.toUpperCase()}</h2> : null}
       <ul className={css.statList}>
         {stats.map(({ id, label, percentage }) => {
           return (
-            <li
-              className={css.item}
-              key={id}
-            >
+            <li className={css.item} key={id}>
               <span className={css.label}>
                 {label}
                 <br />
@@ -35,5 +32,3 @@ Statistics.propTypes = {
     }).isRequired
   ).isRequired,
 };
-
-export default Statistics;
