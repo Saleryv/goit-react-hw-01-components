@@ -4,14 +4,14 @@ import PropTypes from 'prop-types';
 export const Statistics = ({ title, stats }) => {
   return (
     <section className={css.statistics}>
-      {title ? <h2 className={css.title}>{title.toUpperCase()}</h2> : null}
+      {title && <h2 className={css.title}>{title.toUpperCase()}</h2>}
+
       <ul className={css.statList}>
         {stats.map(({ id, label, percentage }) => {
           return (
             <li className={css.item} key={id}>
               <span className={css.label}>
                 {label}
-                <br />
               </span>
               <span className={css.percentage}>{percentage} %</span>
             </li>

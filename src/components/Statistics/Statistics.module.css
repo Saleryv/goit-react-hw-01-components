@@ -23,3 +23,8 @@ margin-top: 40px;
 .percentage{
     font-weight: bold;
 }
+
+.item{
+    display: flex;
+    flex-direction: column;
+}
